@@ -1,6 +1,6 @@
 # Graphs
 A _graph_ is simply a collection of nodes with edges between (some of) them.  <br>
-* Graphs can be either directed (like the following graph) or undirected. While directed edges are like a 
+* Graphs can be either directed or undirected. While directed edges are like a 
 one-way street, undirected edges are like a two-way street. <br>
 * The graph might consist of multiple isolated subgraphs. <br>
 * lf there is a path between every pair of vertices, it is called a "connected graph" <br>

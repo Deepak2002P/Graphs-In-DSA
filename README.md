@@ -34,7 +34,7 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 * *Floyd-Warshall Algorithm* is an algorithm for finding the shortest paths in a weighted graph with positive or negative edge weights, but
   no negative cycles
 * A single execution of the algorithm will find the lengths (summed weights) of the shortest paths between *all* pairs of nodes
-* 
+
 ![Floyd_warshall_gif](https://user-images.githubusercontent.com/85002425/147877110-26494d4e-92fc-4091-b80e-d6aca70b8dae.gif)
 
 

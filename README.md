@@ -24,6 +24,14 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 
 ![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif)
 
+# Prim's Algorithm
+
+* Prim's algorithm (also known as Jarník's algorithm) is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. 
+* This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. 
+* The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.
+
+![Prim's Algo](https://user-images.githubusercontent.com/85002425/147876733-a19815c0-47a8-4df6-acc6-4a38e237a7f1.gif)
+
 # Dijkstra's Algorithm
 
 * Dijkstra’s algorithm is very similar to Prim’s algorithm for minimum spanning tree. Like Prim’s MST, we generate a SPT (shortest path tree) with a given source as a root.
@@ -32,7 +40,6 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 * Dijkstra’s algorithm is used to find the shortest path from a single source vertex to all other vertices in the given graph. 
 
 ![dijkstra](https://user-images.githubusercontent.com/85002425/147876617-f2d5cc6c-0e16-468b-a0e5-e500b31b46eb.gif)
-
 
 
 

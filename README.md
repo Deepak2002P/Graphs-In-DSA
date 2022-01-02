@@ -23,3 +23,22 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 * It is a *greedy algorithm* in graph theory as in each step it adds the next lowest-weight edge that will not form a cycle to the minimum spanning forest.
 
 ![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif)
+
+# Dijkstra's Algorithm
+
+* Dijkstra’s algorithm is very similar to Prim’s algorithm for minimum spanning tree. Like Prim’s MST, we generate a SPT (shortest path tree) with a given source as a root.
+* We maintain two sets, one set contains vertices included in the shortest-path tree, other set includes vertices not yet included in the shortest-path tree.
+* At every step of the algorithm, we find a vertex that is in the other set (set of not yet included) and has a minimum distance from the source.
+* Dijkstra’s algorithm is used to find the shortest path from a single source vertex to all other vertices in the given graph. 
+
+![dijkstra](https://user-images.githubusercontent.com/85002425/147876617-f2d5cc6c-0e16-468b-a0e5-e500b31b46eb.gif)
+
+
+
+
+
+
+
+
+
+

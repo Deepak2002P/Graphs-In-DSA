@@ -8,8 +8,10 @@ one-way street, undirected edges are like a two-way street. <br>
 
 ### Graph Traversals 
 The two most common ways to search a graph are _depth-first search(DFS)_ and _breadth-first search(BFS)._ 
-* In *depth-first search (DFS)*, we start at the root (or another arbitrarily selected node) and explore each branch completely before moving on to the next branch. That is, we go deep first (hence the name depth first search) before we go wide. 
-* In *breadth-first search (BFS)*, we start at the root (or another arbitrarily selected node) and explore each neighbor before going on to any of their children. That is, we go wide (hence breadth-first search) before we go deep.
+* In *depth-first search (DFS)*, we start at the root (or another arbitrarily selected node) and explore each branch completely before moving on to the next branch. That is, we go deep first (hence the name depth first search) before we go wide.<br>
+*Time Complexity*  : `O(|E| + |V|)`  
+* In *breadth-first search (BFS)*, we start at the root (or another arbitrarily selected node) and explore each neighbor before going on to any of their children. That is, we go wide (hence breadth-first search) before we go deep. <br>
+*Time Complexity*  : `O(|E| + |V|)` 
 
 ![dfs-vs-bfs](https://user-images.githubusercontent.com/85002425/147876026-81b5dfe7-6aae-4fd5-9222-30afd43ef7c5.gif)
 
@@ -19,7 +21,7 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 * If the graph is connected, it finds a *minimum spanning tree.* (A minimum spanning tree of a connected graph is a subset of the edges that forms a tree that includes every vertex, where the sum of the weights of all the edges in the tree is minimized.
 * For a disconnected graph, a *minimum spanning forest* is composed of a minimum spanning tree for each connected component.
 * It is a *greedy algorithm* in graph theory as in each step it adds the next lowest-weight edge that will not form a cycle to the minimum spanning forest. <br>
-*Time Complexity*  : `O(ElogV)`
+*Time Complexity*  : `O(|E|log|V|)`
 
 ![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif)
 

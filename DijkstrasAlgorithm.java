@@ -67,8 +67,8 @@ public class DijkstrasAlgorithm {
 
 // OUTPUT
 
-                      Enter Number of Vertices: 8
-                      Enter Number of Edges: 16
+                 Enter Number of Vertices: 8
+                 Enter Number of Edges: 16
                       0 2 2
                       2 0 5
                       2 3 4

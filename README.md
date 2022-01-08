@@ -15,7 +15,6 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 
 ![dfs-vs-bfs](https://user-images.githubusercontent.com/85002425/147876026-81b5dfe7-6aae-4fd5-9222-30afd43ef7c5.gif)
 
-
 ### Kruskal's Algorithm
 * Kruskal's algorithm finds a *minimum spanning forest* of an undirected edge-weighted graph. 
 * If the graph is connected, it finds a *minimum spanning tree.* (A minimum spanning tree of a connected graph is a subset of the edges that forms a tree that includes every vertex, where the sum of the weights of all the edges in the tree is minimized.
@@ -24,6 +23,15 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 *Time Complexity*  : `O(|E|log|V|)`
 
 ![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif)
+
+
+
+#### Prim's Algorithm
+* Prim's algorithm (also known as Jarník's algorithm) is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. 
+* This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. 
+* The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.
+
+![Prim's Algo](https://user-images.githubusercontent.com/85002425/147876733-a19815c0-47a8-4df6-acc6-4a38e237a7f1.gif)
 
 
 #### Bellman-Ford Algorithm
@@ -40,13 +48,6 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 
 ![Floyd_warshall_gif](https://user-images.githubusercontent.com/85002425/147877110-26494d4e-92fc-4091-b80e-d6aca70b8dae.gif)
 
-
-#### Prim's Algorithm
-* Prim's algorithm (also known as Jarník's algorithm) is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. 
-* This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. 
-* The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.
-
-![Prim's Algo](https://user-images.githubusercontent.com/85002425/147876733-a19815c0-47a8-4df6-acc6-4a38e237a7f1.gif)
 
 #### Dijkstra's Algorithm
 * Dijkstra’s algorithm is very similar to Prim’s algorithm for minimum spanning tree. Like Prim’s MST, we generate a SPT (shortest path tree) with a given source as a root.

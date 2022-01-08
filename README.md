@@ -22,7 +22,10 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 * It is a *greedy algorithm* in graph theory as in each step it adds the next lowest-weight edge that will not form a cycle to the minimum spanning forest. <br>
 *Time Complexity*  : `O(|E|log|V|)`
 
-![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif)
+<!-- ![kruskals](https://user-images.githubusercontent.com/85002425/147876375-622147ba-55da-44f7-96f0-f71424bd71d3.gif) -->
+
+![Kruskal's Image](https://user-images.githubusercontent.com/85002425/148650362-2d0c79b9-6260-4e70-b141-ab7e26d900ca.png)
+
 
 
 
@@ -66,4 +69,4 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 *  This two passes of DFS is enough to find the SCCs of the directed graph
 *Time Complexity:* `O(|V| + |E|)`
 
-
+![KosarajuAlgorithm](https://user-images.githubusercontent.com/85002425/148650367-d6d39509-246a-4dac-907e-bb37277c244a.gif)

@@ -69,4 +69,4 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 *  This two passes of DFS is enough to find the SCCs of the directed graph
 *Time Complexity:* `O(|V| + |E|)`
 
-![KosarajuAlgorithm](https://user-images.githubusercontent.com/85002425/148650367-d6d39509-246a-4dac-907e-bb37277c244a.gif)
+<!-- ![KosarajuAlgorithm](https://user-images.githubusercontent.com/85002425/148650367-d6d39509-246a-4dac-907e-bb37277c244a.gif) -->

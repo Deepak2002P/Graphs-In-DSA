@@ -60,6 +60,7 @@ public class CycleDetectionUsingKahnsAlgorithm {
 
 /*
 
+
 // OUTPUT
            Enter Number of Vertices: 5
            Enter Number of Edges: 5
@@ -85,8 +86,6 @@ public class CycleDetectionUsingKahnsAlgorithm {
                 Has Cycle: false
 
 
-                // IMPORTANT NOTE
-                // This Algorithm will not work for Cyclic Graph
                 Enter Number of Vertices: 4
                 Enter Number of Edges: 4
                     0 1
@@ -95,5 +94,7 @@ public class CycleDetectionUsingKahnsAlgorithm {
                     1 3
                     [1, 1, 1, 1]
                     Has Cycle: true
+
+
 
  */

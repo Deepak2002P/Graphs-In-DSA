@@ -2,6 +2,10 @@ package com.company.GraphTheory;
 import java.util.*;
 public class KahnsAlgorithm {
 
+    // IMPORTANT NOTE 
+    // This Algorithm will not work for Cyclic Graph
+    // Topological Sort will Only Work for Acyclic graph
+    
     public static void kahnsAlgorithm(int [][]adjMatrix, int []indegree, boolean []visited){
         Queue<Integer> queue = new LinkedList<>();
         // Add all Vertices with indegree 0 in the Queue
@@ -60,8 +64,8 @@ public class KahnsAlgorithm {
                 1 4
                 [0, 0, 1, 3, 1]
                 0 1 2 3 4
-            
-            
+
+
             Enter Number of Vertices: 6
             Enter Number of Edges: 7
                 0 2
@@ -72,5 +76,19 @@ public class KahnsAlgorithm {
                 3 4
                 2 5
                 [0, 1, 2, 2, 1, 1]
-                0 1 2 3 5 4 
+                0 1 2 3 5 4
+                
+                
+                // IMPORTANT NOTE 
+                // This Algorithm will not work for Cyclic Graph
+                Enter Number of Vertices: 4
+                Enter Number of Edges: 4
+                    0 1
+                    1 2
+                    2 0
+                    1 3
+                    [1, 1, 1, 1]
+                    
+                    
  */
+

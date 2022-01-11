@@ -59,7 +59,7 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 ![dijkstra](https://user-images.githubusercontent.com/85002425/147876617-f2d5cc6c-0e16-468b-a0e5-e500b31b46eb.gif)
 
 
-### Kosaraju’s Algorithm
+## Kosaraju’s Algorithm
 * DFS-based algorithm that can be used to find SCCs of a directed graph called the *Kosaraju’s algorithm*.
 *  The basic idea of this algorithm is to run DFS twice. 
 *  The first DFS is done on the original directed graph and record the ‘post-order’ traversal of the vertices as in finding topological sort. 

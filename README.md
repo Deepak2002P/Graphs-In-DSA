@@ -66,8 +66,3 @@ The two most common ways to search a graph are _depth-first search(DFS)_ and _br
 *  The second DFS is done on the transpose of the original directed graph using the ‘post-order’ ordering found by the first DFS. 
 *  This two passes of DFS is enough to find the SCCs of the directed graph <br>
 *Time Complexity:* `O(|V| + |E|)`
-
-
-![scc_finishing-time](https://user-images.githubusercontent.com/85002425/151546059-b9c2f75c-c103-4494-a8d9-94d8035a89be.png)
-![Tarjan9](https://user-images.githubusercontent.com/85002425/151546066-a46ecf3e-2106-47b0-a45b-07afb3a94059.png)
-<!-- ![KosarajuAlgorithm](https://user-images.githubusercontent.com/85002425/148650367-d6d39509-246a-4dac-907e-bb37277c244a.gif) -->

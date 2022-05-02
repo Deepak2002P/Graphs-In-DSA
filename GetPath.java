@@ -1,7 +1,7 @@
 package com.company.GraphTheory;
 import java.util.*;
 
-public class HasPath {
+public class GetPath {
     public static ArrayList<Integer> getPath(int [][] adjMatrix, int s, int e){
         // Declare a Queue
         Queue<Integer> queue = new LinkedList<>();
